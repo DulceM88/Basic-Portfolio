@@ -1,29 +1,39 @@
+body{
+}
+
+
 .navBarWrapper{
-	background:#eee;
+	
+	background: #ffffff;
 	height:100px;
 	width:100%;
-	margin-left:30px;
-	margin-right:30px;
+	border-width:2px;
+	border-color:#cccccc;
+
+	
+	
 }
 
 #nameBlock{
-	
-	background:blue;
+	position:relative;
+	background:#4aaaa5;
+	color:white;
+	border-color:#cccccc;
 	text-align:center;
 	padding:20px;
 	width:33%;
+	bottom:0;
 
 
 }
-#aboutLink{
+#navLinks{
 	color:grey;
 	text-align:right;
+
 }
-#portfolioLink{
-	color:grey;
-	text-align:right;
-}
-#contactLink{
-	color:grey;
-	text-align:right;
+footer{
+	background:#666666;
+	color:white;
+	padding:20px;
+	text-align:center;
 }
