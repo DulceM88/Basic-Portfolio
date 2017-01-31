@@ -1,16 +1,17 @@
 body{
+	margin-right:150px;
+	margin-left:150px;
+
 }
 
 
 .navBarWrapper{
-	
+
 	background: #ffffff;
 	height:100px;
-	width:100%;
-	border-width:2px;
-	border-color:#cccccc;
-
-	
+	width:76%;
+	color: grey;
+	text-align:right;
 	
 }
 
@@ -23,15 +24,21 @@ body{
 	padding:20px;
 	width:33%;
 	bottom:0;
-
-
 }
-#navLinks{
-	color:grey;
-	text-align:right;
-
+img{
+	float:left;
+	width:128px;
+	height:128px;
+}
+aside{
+	clear:both;
+	float:right;
+}
+section{
+	
 }
 footer{
+	clear:both;
 	background:#666666;
 	color:white;
 	padding:20px;
