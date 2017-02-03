@@ -1,0 +1,84 @@
+body{
+	background-image:url(../images/rainbows.png);
+	background-repeat:repeat;
+	margin:0px;
+	}
+
+
+#navBarWrapper{
+	background:#ffffff;
+	position:fixed;
+	width:100%;
+	height:90px;
+	border-style:solid;
+	border-width:thin;
+	border-color:#dddddd;
+}
+#navNameBox{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	float:left;
+	background:#4aaaa5;
+	position:relative;
+	bottom:21px;
+	padding:27px;
+}
+#navLinks{
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	float:right;
+}	
+
+
+
+.indexAbout{
+	border-style:solid;
+	border-width:thin;
+	border-color:#dddddd;
+	width:645px;
+	height:478px;
+	background:#ffffff;
+	float:left;
+	margin-left:150px;
+	margin-top:130px;
+	margin-bottom:40px;
+
+}
+#profilePic{
+	height:150px;
+	width:150px;
+	padding:20px;
+	float:left;
+}
+p{
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+}
+
+.icons{
+	width:60px;
+	height:60px;
+}
+aside{
+	border-style:solid;
+	border-width:thin;
+	border-color:#dddddd;
+	background:#ffffff;
+	width:270px;
+	padding:20px;
+	text-align:center;
+	float:left;
+	margin-top:130px;
+	margin-left:41px;
+}
+.bottomBorder{
+	background:#4aaaa5;
+	width:100%;
+	height:10px;
+	clear:both;
+}
+footer{
+	clear:both;
+	text-align:center;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding:20px;
+	width:100%;
+	background:#666666;
+}
